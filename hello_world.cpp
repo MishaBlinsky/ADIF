@@ -1,8 +1,8 @@
 #include <iostream>
 int main() {
-    std::string name; // string to store name
-    std::cout << "Enter your name: "; // ask user for name
-    std::cin >> name; // get user input
-    std::cout << "Hello world from " << name << endl; // print hello world
+    std::string name; // строка для имени
+    std::cout << "Enter your name: "; // просьба ввести имя
+    std::cin >> name; // получение инпута
+    std::cout << "Hello world from " << name << endl; // печать hello world
     return 0; // end
 }
